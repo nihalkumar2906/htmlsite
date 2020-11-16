@@ -1,0 +1,68 @@
+/*
+===========================================================
+                         NOTES
+===========================================================
+1. SELECTORS' Weightage Order : ID > CLASS > TAG.
+2. Use Classes for styling, not IDs.
+3. A particular ID can be used only once in a HTML file.
+4. For styling, You can use multiple Classes for same tag.
+5. For styling, You cannot use multiple IDs for same tag.
+===========================================================
+*/
+
+/**************** TAG SELECTORS ******************/
+
+body {
+  font-family: sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+a {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+hr {
+  /* Alphabetical Order */
+  border-color: grey;
+  border-style: dotted none none;
+  border-width: 5px;
+  margin: 50px auto;
+  width: 8%;
+}
+
+/***************** PSEUDO CLASSES ****************/
+
+.logo-container:hover {
+  background-color: grey;
+}
+
+a:hover {
+  color: blue;
+}
+
+/**************** CLASS SELECTORS ****************/
+
+.logo-container {
+  background-color: black;
+  border-radius: 100%;
+  height: 180px;
+  width: 180px;
+}
+
+.nihal-logo {
+  margin: 55px 0;
+  width: 160px;
+}
+
+/***************** ID SELECTORS ******************/
+
+#heading {
+  font-size: 35px;
+}
